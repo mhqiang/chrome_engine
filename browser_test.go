@@ -26,7 +26,7 @@ func TestBrowser(t *testing.T) {
 		nil, "", true)
 	defer b.Close()
 
-	reqURL := "http://10.220.170.86:8181/#/login?redirect=%2Fmonitor%2Findex"
+	reqURL := "https://yuntan.360.cn
 	u, err := url.Parse(reqURL)
 	logger.Info("-----", u, err)
 	req := model.Request{
