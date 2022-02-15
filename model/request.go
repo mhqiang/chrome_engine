@@ -1,12 +1,13 @@
 package model
 
 import (
-	"chrome_engine/config"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"net/url"
 	"strings"
+
+	"github.com/mhqiang/chrome_engine/config"
 
 	"github.com/mhqiang/tools"
 )

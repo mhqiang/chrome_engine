@@ -1,11 +1,12 @@
 package chrome_engine
 
 import (
-	"chrome_engine/config"
-	"chrome_engine/model"
 	"net/http"
 	"net/url"
 	"testing"
+
+	"github.com/mhqiang/chrome_engine/config"
+	"github.com/mhqiang/chrome_engine/model"
 
 	"github.com/mhqiang/logger"
 )
@@ -22,11 +23,11 @@ func initLog() {
 
 func TestBrowser(t *testing.T) {
 	initLog()
-	b := InitBrowser(`/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome`, true,
+	b := InitBrowser(`/Applications/Chromium.app/Contents/MacOS/Chromium`, true,
 		nil, "", true)
 	defer b.Close()
 
-	reqURL := "https://yuntan.360.cn
+	reqURL := "https://yuntan.360.cn"
 	u, err := url.Parse(reqURL)
 	logger.Info("-----", u, err)
 	req := model.Request{

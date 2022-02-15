@@ -32,7 +32,8 @@ func InitBrowser(chromiumPath string, incognito bool,
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
 
 		// 执行路径
-		//	chromedp.ExecPath(chromiumPath),
+		chromedp.ExecPath(chromiumPath),
+
 		// 无头模式
 		chromedp.Flag("headless", !noHeadless),
 		// 禁用GPU，不显示GUI

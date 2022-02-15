@@ -1,12 +1,13 @@
 package model
 
 import (
-	"chrome_engine/requests"
 	"errors"
 	"fmt"
 	"net/url"
 	"regexp"
 	"strings"
+
+	"github.com/mhqiang/chrome_engine/requests"
 
 	"golang.org/x/net/publicsuffix"
 )

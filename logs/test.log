@@ -60,3 +60,11 @@
 {"level":"info","time":"2022-02-14 16:06:50.619","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/browser_test.go:31","msg":"----- http://10.220.170.86:8181/#/login?redirect=%2Fmonitor%2Findex <nil>"}
 {"level":"info","time":"2022-02-14 16:06:50.623","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/tab.go:194","msg":"Crawling GET http://10.220.170.86:8181/#/login?redirect=%2Fmonitor%2Findex"}
 {"level":"error","time":"2022-02-14 16:06:50.623","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/tab.go:231","msg":"context canceled"}
+{"level":"info","time":"2022-02-14 17:57:39.181","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/browser_test.go:32","msg":"----- https://yuntan.360.cn <nil>"}
+{"level":"info","time":"2022-02-14 17:57:39.182","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/tab.go:197","msg":"Crawling GET https://yuntan.360.cn"}
+{"level":"error","time":"2022-02-14 17:57:39.184","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/tab.go:234","msg":"fork/exec /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome: no such file or directory"}
+{"level":"warn","time":"2022-02-14 17:57:39.184","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/tab.go:238","msg":"navigate timeout  https://yuntan.360.cn"}
+{"level":"info","time":"2022-02-14 17:57:52.099","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/browser_test.go:32","msg":"----- https://yuntan.360.cn <nil>"}
+{"level":"info","time":"2022-02-14 17:57:52.099","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/tab.go:197","msg":"Crawling GET https://yuntan.360.cn"}
+{"level":"error","time":"2022-02-14 17:57:52.101","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/tab.go:234","msg":"fork/exec /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome: no such file or directory"}
+{"level":"warn","time":"2022-02-14 17:57:52.101","linenum":"/Users/mahuaqiang/Documents/Go/chrome_engine/tab.go:238","msg":"navigate timeout  https://yuntan.360.cn"}

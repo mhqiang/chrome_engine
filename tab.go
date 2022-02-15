@@ -1,19 +1,22 @@
 package chrome_engine
 
 import (
-	"chrome_engine/config"
-	"chrome_engine/js"
 	"context"
+
+	"github.com/mhqiang/chrome_engine/js"
+
+	"github.com/mhqiang/chrome_engine/config"
 
 	"github.com/mhqiang/logger"
 
-	model2 "chrome_engine/model"
 	"encoding/json"
 	"fmt"
 	"regexp"
 	"strings"
 	"sync"
 	"time"
+
+	model2 "github.com/mhqiang/chrome_engine/model"
 
 	"github.com/chromedp/cdproto/cdp"
 	"github.com/chromedp/cdproto/dom"

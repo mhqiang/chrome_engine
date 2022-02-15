@@ -2,10 +2,13 @@ package chrome_engine
 
 import (
 	"bufio"
-	"chrome_engine/config"
-	model2 "chrome_engine/model"
-	"chrome_engine/requests"
 	"context"
+
+	model2 "github.com/mhqiang/chrome_engine/model"
+
+	"github.com/mhqiang/chrome_engine/requests"
+
+	"github.com/mhqiang/chrome_engine/config"
 
 	"github.com/mhqiang/tools"
 

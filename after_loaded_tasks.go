@@ -1,9 +1,11 @@
 package chrome_engine
 
 import (
-	"chrome_engine/config"
-	"chrome_engine/js"
 	"context"
+
+	"github.com/mhqiang/chrome_engine/js"
+
+	"github.com/mhqiang/chrome_engine/config"
 
 	"github.com/mhqiang/logger"
 	"github.com/mhqiang/tools"

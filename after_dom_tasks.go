@@ -1,12 +1,14 @@
 package chrome_engine
 
 import (
-	"chrome_engine/config"
-	"chrome_engine/js"
 	"context"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/mhqiang/chrome_engine/js"
+
+	"github.com/mhqiang/chrome_engine/config"
 
 	"github.com/mhqiang/logger"
 
